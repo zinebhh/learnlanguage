@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+joblib
+scikit-learn
+pandas
+streamlit
+requests
+sqlalchemy
+plotly
+pyjwt
+passlib[bcrypt]
+email-validator
