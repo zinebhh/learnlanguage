@@ -9,9 +9,8 @@ app = FastAPI(title="LearnLanguage API")
 Base.metadata.create_all(bind=engine)
 
 @app.get("/")
-def root():
+def health():
     return {"status": "ok"}
-
 app.include_router(auth_router)
 app.include_router(chat_router)
 app.include_router(stats_router)
